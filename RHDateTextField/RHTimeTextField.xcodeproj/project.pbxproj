@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA2F76B118B6494100D2EF0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2F76B018B6494100D2EF0E /* Foundation.framework */; };
+		BA2F76B318B6494100D2EF0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2F76B218B6494100D2EF0E /* CoreGraphics.framework */; };
+		BA2F76B518B6494100D2EF0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2F76B418B6494100D2EF0E /* UIKit.framework */; };
+		BA2F76BB18B6494100D2EF0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA2F76B918B6494100D2EF0E /* InfoPlist.strings */; };
+		BA2F76BD18B6494100D2EF0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2F76BC18B6494100D2EF0E /* main.m */; };
+		BA2F76C118B6494100D2EF0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2F76C018B6494100D2EF0E /* AppDelegate.m */; };
+		BA2F76C718B6494100D2EF0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2F76C618B6494100D2EF0E /* ViewController.m */; };
+		BA2F76C918B6494100D2EF0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2F76C818B6494100D2EF0E /* Images.xcassets */; };
+		BA2F76D018B6494100D2EF0E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2F76CF18B6494100D2EF0E /* XCTest.framework */; };
+		BA2F76D118B6494100D2EF0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2F76B018B6494100D2EF0E /* Foundation.framework */; };
+		BA2F76D218B6494100D2EF0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2F76B418B6494100D2EF0E /* UIKit.framework */; };
+		BA2F76DA18B6494100D2EF0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA2F76D818B6494100D2EF0E /* InfoPlist.strings */; };
+		BA2F76DC18B6494100D2EF0E /* RHDateTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2F76DB18B6494100D2EF0E /* RHDateTextFieldTests.m */; };
+		BA2F76E818B64A9100D2EF0E /* RHTimeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2F76E718B64A9100D2EF0E /* RHTimeTextField.m */; };
+		BA2F76EB18B64B4A00D2EF0E /* RHTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2F76EA18B64B4A00D2EF0E /* RHTimePickerView.m */; };
+		BA2F76ED18B658B600D2EF0E /* RHTimeTextField-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA2F76EC18B658B600D2EF0E /* RHTimeTextField-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA2F76D318B6494100D2EF0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA2F76A518B6494100D2EF0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA2F76AC18B6494100D2EF0E;
+			remoteInfo = RHDateTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA2F76AD18B6494100D2EF0E /* RHTimeTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHTimeTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2F76B018B6494100D2EF0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA2F76B218B6494100D2EF0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA2F76B418B6494100D2EF0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA2F76BA18B6494100D2EF0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA2F76BC18B6494100D2EF0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA2F76BE18B6494100D2EF0E /* RHTimeTextField-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RHTimeTextField-Prefix.pch"; sourceTree = "<group>"; };
+		BA2F76BF18B6494100D2EF0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA2F76C018B6494100D2EF0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA2F76C518B6494100D2EF0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA2F76C618B6494100D2EF0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA2F76C818B6494100D2EF0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA2F76CE18B6494100D2EF0E /* RHTimeTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHTimeTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2F76CF18B6494100D2EF0E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BA2F76D718B6494100D2EF0E /* RHTimeTextFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHTimeTextFieldTests-Info.plist"; sourceTree = "<group>"; };
+		BA2F76D918B6494100D2EF0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA2F76DB18B6494100D2EF0E /* RHDateTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHDateTextFieldTests.m; sourceTree = "<group>"; };
+		BA2F76E618B64A9100D2EF0E /* RHTimeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RHTimeTextField.h; path = External/RHTimeTextField.h; sourceTree = "<group>"; };
+		BA2F76E718B64A9100D2EF0E /* RHTimeTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RHTimeTextField.m; path = External/RHTimeTextField.m; sourceTree = "<group>"; };
+		BA2F76E918B64B4A00D2EF0E /* RHTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTimePickerView.h; sourceTree = "<group>"; };
+		BA2F76EA18B64B4A00D2EF0E /* RHTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHTimePickerView.m; sourceTree = "<group>"; };
+		BA2F76EC18B658B600D2EF0E /* RHTimeTextField-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RHTimeTextField-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA2F76AA18B6494100D2EF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2F76B318B6494100D2EF0E /* CoreGraphics.framework in Frameworks */,
+				BA2F76B518B6494100D2EF0E /* UIKit.framework in Frameworks */,
+				BA2F76B118B6494100D2EF0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2F76CB18B6494100D2EF0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2F76D018B6494100D2EF0E /* XCTest.framework in Frameworks */,
+				BA2F76D218B6494100D2EF0E /* UIKit.framework in Frameworks */,
+				BA2F76D118B6494100D2EF0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA2F76A418B6494100D2EF0E = {
+			isa = PBXGroup;
+			children = (
+				BA2F76B618B6494100D2EF0E /* RHTimeTextField */,
+				BA2F76D518B6494100D2EF0E /* RHTimeTextFieldTests */,
+				BA2F76AF18B6494100D2EF0E /* Frameworks */,
+				BA2F76AE18B6494100D2EF0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA2F76AE18B6494100D2EF0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F76AD18B6494100D2EF0E /* RHTimeTextField.app */,
+				BA2F76CE18B6494100D2EF0E /* RHTimeTextFieldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA2F76AF18B6494100D2EF0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F76B018B6494100D2EF0E /* Foundation.framework */,
+				BA2F76B218B6494100D2EF0E /* CoreGraphics.framework */,
+				BA2F76B418B6494100D2EF0E /* UIKit.framework */,
+				BA2F76CF18B6494100D2EF0E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA2F76B618B6494100D2EF0E /* RHTimeTextField */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F76E518B64A5A00D2EF0E /* External */,
+				BA2F76BF18B6494100D2EF0E /* AppDelegate.h */,
+				BA2F76C018B6494100D2EF0E /* AppDelegate.m */,
+				BA2F76C518B6494100D2EF0E /* ViewController.h */,
+				BA2F76C618B6494100D2EF0E /* ViewController.m */,
+				BA2F76C818B6494100D2EF0E /* Images.xcassets */,
+				BA2F76B718B6494100D2EF0E /* Supporting Files */,
+			);
+			name = RHTimeTextField;
+			path = RHDateTextField;
+			sourceTree = "<group>";
+		};
+		BA2F76B718B6494100D2EF0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F76EC18B658B600D2EF0E /* RHTimeTextField-Info.plist */,
+				BA2F76B918B6494100D2EF0E /* InfoPlist.strings */,
+				BA2F76BC18B6494100D2EF0E /* main.m */,
+				BA2F76BE18B6494100D2EF0E /* RHTimeTextField-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA2F76D518B6494100D2EF0E /* RHTimeTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F76DB18B6494100D2EF0E /* RHDateTextFieldTests.m */,
+				BA2F76D618B6494100D2EF0E /* Supporting Files */,
+			);
+			name = RHTimeTextFieldTests;
+			path = RHDateTextFieldTests;
+			sourceTree = "<group>";
+		};
+		BA2F76D618B6494100D2EF0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F76D718B6494100D2EF0E /* RHTimeTextFieldTests-Info.plist */,
+				BA2F76D818B6494100D2EF0E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA2F76E518B64A5A00D2EF0E /* External */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F76E618B64A9100D2EF0E /* RHTimeTextField.h */,
+				BA2F76E718B64A9100D2EF0E /* RHTimeTextField.m */,
+				BA2F76E918B64B4A00D2EF0E /* RHTimePickerView.h */,
+				BA2F76EA18B64B4A00D2EF0E /* RHTimePickerView.m */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA2F76AC18B6494100D2EF0E /* RHTimeTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2F76DF18B6494100D2EF0E /* Build configuration list for PBXNativeTarget "RHTimeTextField" */;
+			buildPhases = (
+				BA2F76A918B6494100D2EF0E /* Sources */,
+				BA2F76AA18B6494100D2EF0E /* Frameworks */,
+				BA2F76AB18B6494100D2EF0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RHTimeTextField;
+			productName = RHDateTextField;
+			productReference = BA2F76AD18B6494100D2EF0E /* RHTimeTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA2F76CD18B6494100D2EF0E /* RHTimeTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2F76E218B6494100D2EF0E /* Build configuration list for PBXNativeTarget "RHTimeTextFieldTests" */;
+			buildPhases = (
+				BA2F76CA18B6494100D2EF0E /* Sources */,
+				BA2F76CB18B6494100D2EF0E /* Frameworks */,
+				BA2F76CC18B6494100D2EF0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA2F76D418B6494100D2EF0E /* PBXTargetDependency */,
+			);
+			name = RHTimeTextFieldTests;
+			productName = RHDateTextFieldTests;
+			productReference = BA2F76CE18B6494100D2EF0E /* RHTimeTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA2F76A518B6494100D2EF0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ratha Hin";
+				TargetAttributes = {
+					BA2F76CD18B6494100D2EF0E = {
+						TestTargetID = BA2F76AC18B6494100D2EF0E;
+					};
+				};
+			};
+			buildConfigurationList = BA2F76A818B6494100D2EF0E /* Build configuration list for PBXProject "RHTimeTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA2F76A418B6494100D2EF0E;
+			productRefGroup = BA2F76AE18B6494100D2EF0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA2F76AC18B6494100D2EF0E /* RHTimeTextField */,
+				BA2F76CD18B6494100D2EF0E /* RHTimeTextFieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA2F76AB18B6494100D2EF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2F76C918B6494100D2EF0E /* Images.xcassets in Resources */,
+				BA2F76BB18B6494100D2EF0E /* InfoPlist.strings in Resources */,
+				BA2F76ED18B658B600D2EF0E /* RHTimeTextField-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2F76CC18B6494100D2EF0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2F76DA18B6494100D2EF0E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA2F76A918B6494100D2EF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2F76EB18B64B4A00D2EF0E /* RHTimePickerView.m in Sources */,
+				BA2F76C718B6494100D2EF0E /* ViewController.m in Sources */,
+				BA2F76E818B64A9100D2EF0E /* RHTimeTextField.m in Sources */,
+				BA2F76C118B6494100D2EF0E /* AppDelegate.m in Sources */,
+				BA2F76BD18B6494100D2EF0E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2F76CA18B6494100D2EF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2F76DC18B6494100D2EF0E /* RHDateTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA2F76D418B6494100D2EF0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA2F76AC18B6494100D2EF0E /* RHTimeTextField */;
+			targetProxy = BA2F76D318B6494100D2EF0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA2F76B918B6494100D2EF0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2F76BA18B6494100D2EF0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA2F76D818B6494100D2EF0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2F76D918B6494100D2EF0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA2F76DD18B6494100D2EF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA2F76DE18B6494100D2EF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA2F76E018B6494100D2EF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHDateTextField/RHTimeTextField-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/RHDateTextField/RHTimeTextField-Info.plist";
+				PRODUCT_NAME = RHTimeTextField;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA2F76E118B6494100D2EF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHDateTextField/RHTimeTextField-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/RHDateTextField/RHTimeTextField-Info.plist";
+				PRODUCT_NAME = RHTimeTextField;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BA2F76E318B6494100D2EF0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RHDateTextField.app/RHDateTextField";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHDateTextField/RHDateTextField-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RHDateTextFieldTests/RHTimeTextFieldTests-Info.plist";
+				PRODUCT_NAME = RHTimeTextFieldTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BA2F76E418B6494100D2EF0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RHDateTextField.app/RHDateTextField";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RHDateTextField/RHDateTextField-Prefix.pch";
+				INFOPLIST_FILE = "RHDateTextFieldTests/RHTimeTextFieldTests-Info.plist";
+				PRODUCT_NAME = RHTimeTextFieldTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA2F76A818B6494100D2EF0E /* Build configuration list for PBXProject "RHTimeTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2F76DD18B6494100D2EF0E /* Debug */,
+				BA2F76DE18B6494100D2EF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2F76DF18B6494100D2EF0E /* Build configuration list for PBXNativeTarget "RHTimeTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2F76E018B6494100D2EF0E /* Debug */,
+				BA2F76E118B6494100D2EF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA2F76E218B6494100D2EF0E /* Build configuration list for PBXNativeTarget "RHTimeTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2F76E318B6494100D2EF0E /* Debug */,
+				BA2F76E418B6494100D2EF0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA2F76A518B6494100D2EF0E /* Project object */;
+}
