@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface RHTimePickerView : NSObject
+@interface RHTimePickerView : UIView
 
 - (void)showDatePicker;
 - (void)hideDatePicker;

@@ -34,6 +34,7 @@
   if (!_longGesture) {
     _longGesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self
                                                                  action:@selector(longGestureAction:)];
+    _longGesture.minimumPressDuration = 0.5;
   }
   
   return _longGesture;
@@ -45,7 +46,8 @@
 
 - (RHTimePickerView *)timePickerView {
   if (!_timePickerView) {
-    _timePickerView = [[RHTimePickerView alloc] init];
+    _timePickerView = [[RHTimePickerView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    _timePickerView.multipleTouchEnabled = YES;
   }
   
   return _timePickerView;
